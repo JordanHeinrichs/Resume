@@ -1,24 +1,25 @@
 \documentclass[12pt]{article}
-%------------------------Dimensions--------------------------------------------
-\topmargin=0.0in % length of margin at the top of the page
-\oddsidemargin=0.0in % length of margin on sides for odd pages
-\evensidemargin=0in % length of margin on sides for even pages
+\topmargin=0.0in
+\oddsidemargin=0.0in
+\evensidemargin=0in
 \textwidth=6.2in
 \marginparwidth=0.5in
 \headheight=0pt
-\headsep=0pt % Increase to increase white space in between headers and the top of the page
-\textheight=9.1in % How tall the text body is allowed to be on each page
+\headsep=0pt
+\textheight=9.1in
 \usepackage{enumerate}
 \usepackage[shortlabels]{enumitem}
 \usepackage[hidelinks]{hyperref}
-\setitemize{noitemsep,topsep=6pt,parsep=0pt,partopsep=0pt}
+\usepackage{titlesec}
+
+\setitemize{itemsep=5pt, topsep=4pt, parsep=0pt, partopsep=0pt}
 
 \begin{document}
 
 \centerline{{\Huge \sc Jordan Heinrichs}}
 \medskip
 \centerline{\textbullet\ Phone: (403) 399-6280 \hspace{5pt} \textbullet\ mail@jordanheinrichs.com}
-\centerline{\textbullet\ \url{www.JordanHeinrichs.com}  \hspace{5pt} \textbullet\ \url{www.github.com/JordanHeinrichs}}
+\centerline{\textbullet\ \url{www.JordanHeinrichs.com} \hspace{5pt} \textbullet\ \url{www.github.com/JordanHeinrichs}}
 \noindent
 \line(1,0){470}\\
 
@@ -27,17 +28,11 @@
 \medskip
 
 \begin{itemize}
-\item Professionally used TypeScript/JavaScript, C++, Rust, Python, and Perl
-\item Managed AWS workloads using IaC with Terraform HCL and CDK
-\item Built front-ends with React, Vue, Angular and Svelte
-\item Designed schemas and optimized SQL queries in \textgreater 1 TB PostgreSQL database
-\item Cross region scaled NoSQL DB with MongoDB
-\item Integrated with Cloudflare, Auth0, and Datadog and managed vendor relationships
-\item Built CI/CD pipelines in CircleCI, Github Actions, and Jenkins
-\item Dockerized services and deployed to Fargate
-\item Led Agile processes with continuous improvement
-\item Achieved SOC 2 compliance across services
-\item Communicated cross functionally to deliver impactful solutions for customers
+  \item \textbf{Languages:} TypeScript/JavaScript, C++, Rust, Python, SQL
+  \item \textbf{Cloud \& Infrastructure:} AWS (Terraform HCL, CDK, Fargate), Docker, Serverless
+  \item \textbf{Databases:} PostgreSQL (\textgreater 1 TB optimization), MongoDB (Cross-region scaling)
+  \item \textbf{Front-End:} React, Svelte, Tailwind
+  \item \textbf{DevOps \& Security:} CI/CD (GitHub Actions), SOC 2 Compliance, Auth0, Datadog
 \end{itemize}
 \noindent
 
@@ -46,68 +41,56 @@
 \bigskip
 
 \noindent \centerline{ \bf Validere Inc., Calgary \hfill October 2022 - Present}
-\indent \emph{ Technical Lead Manager }
-\begin{itemize}
-  \item Planned and forecasted resourcing needs
-  \item Managed project security and process compliance
-  \item Upskilled organization using constructive feedback in code reviews
-  \item Researched and implemented innovative features
-\end{itemize}
+\medskip
 
-\indent \emph{ Team Lead }
+\noindent \textbf{\emph{Technical Lead Manager}} \hfill \emph{March 2024 -- Present}
 \begin{itemize}
-  \item Implemented DB schema for slowly changing dimensions at scale
-  \item Deployed and was responsible for operational support
-  \item Architected and implemented cloud native application features
-  \item Interfaced with product and services to plan and execute sprints
+  \item Architected and deployed a secure customer plugin interface using Rust and Wasm, creating a sandboxed production environment for third-party code execution.
+  \item Led the technical initiative to achieve SOC 2 compliance across all services, implementing rigorous infrastructure-as-code security policies and process enforcement.
+  \item Upskilled the engineering organization by establishing strict code review protocols and architectural standards, significantly reducing technical debt.
+  \item Directed the research and implementation of innovative product features, bridging the gap between complex backend constraints and product requirements.
 \end{itemize}
+\medskip
 
-\indent \emph{ Senior Software Developer }
+\noindent \textbf{\emph{Team Lead}} \hfill \emph{May 2023 -- April 2024}
 \begin{itemize}
-  \item Back-end REST API development of Node.js with Express
-  \item Managed AWS infrastructure using Terraform
-  \item Front-end with React
-  \item Scaled the application from early MVP to core company product
-  \item Designed database schema for performance
-  \item Implemented serverless architecture for variable load
-  \item Monitored system using observability tools to track system health
+  \item Designed and implemented a scalable PostgreSQL schema handling \textgreater 1 TB of data, optimizing specifically for slowly changing dimensions and high-throughput queries.
+  \item Architected cloud-native application features, overseeing the transition from legacy systems to modern, containerized deployments.
+  \item Owned the operational support and deployment lifecycle, ensuring high availability and rapid incident response.
 \end{itemize}
 \medskip
 
 \pagebreak
+\noindent \textbf{\emph{Senior Software Developer}} \hfill \emph{October 2022 -- May 2023}
+\begin{itemize}
+  \item Scaled the platform from MVP to a core enterprise product by implementing a serverless architecture to auto-scale with variable load.
+  \item Engineered high-performance back-end REST APIs using Node.js and Express, focusing on low-latency data processing.
+  \item Managed the entire AWS infrastructure provisioning using Terraform, integrating Datadog for real-time system observability.
+\end{itemize}
+\medskip
+
 \noindent \centerline{ \bf Arterys Inc., Calgary \hfill June 2018 - October 2022}
 \indent \emph{ Software Developer }
 \begin{itemize}
-  \item Full stack developer on a cloud native medical imaging application
-  \item Developed web application with Vue and AngularJS
-  \item Back-end development with C++, Node.js, and MongoDB
-  \item Deployed and managed scalable clusters in the AWS ecosystem
-  \item Coordinated small teams to estimate and release projects on time
-  \item Worked with product team to deliver impactful features
-  \item Researched and implemented algorithms for cardiac MRI analysis
-  \item Mentored junior developers with a focus on constructive feedback
+  \item Researched and implemented complex C++ algorithms for cardiac MRI analysis, directly improving the speed and accuracy of medical diagnostics.
+  \item Built a cloud-native medical imaging application using Vue, AngularJS, and Node.js, ensuring FDA-compliant performance standards.
+  \item Deployed and managed scalable MongoDB clusters and AWS ecosystems across multiple geographic regions to ensure low-latency data access.
+  \item Mentored junior developers on C++ best practices and system design patterns.
 \end{itemize}
 \medskip
 
 \noindent \centerline{ \bf Hitachi ID Systems, Inc., Calgary \hfill May 2016 - June 2018}
 \indent \emph{ Intermediate Software Developer }
 \begin{itemize}
-  \item Enhanced an ID/access management software used in large organizations
-  \item Improved the product's front-end web interface with jQuery and Angular with TypeScript
-  \item Back-end development with C++ and MSSQL Server
-  \item Maintained integration tests with Ruby and Watir
-  \item Windows development and testing environment with Git and Cygwin
+  \item Modernized the front-end interface of a legacy ID management system using Angular and TypeScript.
+  \item Maintained and optimized critical C++ and MSSQL Server components for high-security enterprise environments.
 \end{itemize}
 \medskip
 
 \noindent \centerline{ \bf Lockheed Martin CDL Systems Ltd., Calgary \hfill May 2014 - Aug 2015}
 \indent \emph{ Software Developer Intern }
 \begin{itemize}
-  \item Worked on software to interface between two protocols for UAV flight control
-  \item Used Test Driven Development and other Agile methodologies
-  \item Gained experience with C++ with QT, Perl, and Git
-  \item Learned and implemented Domain Driven Design
-  \item Developed for Windows, Linux, and Linux on ARM
+  \item Engineered interface software between diverse UAV flight control protocols using C++ and QT, adhering to strict Domain Driven Design (DDD) principles.
 \end{itemize}
 \medskip
 
@@ -115,7 +98,7 @@
 \noindent{\Large \bf Education}
 \medskip
 
-\noindent \centerline{ \bf BSc, Electrical Engineering, minor in Computer Engineering  \hfill 2011 - 2016}
+\noindent \centerline{ \bf BSc, Electrical Engineering, minor in Computer Engineering \hfill 2011 - 2016}
 \begin{itemize}[parsep=0pt,partopsep=0pt]
   \item University of Calgary
   \item GPA: 3.9/4.0 cumulative
@@ -126,16 +109,8 @@
 \medskip
 
 \begin{itemize}
-\item Endurance athlete, trail, and road running
-  \begin{itemize}
-    \item 2019 Boston Marathon finisher
-    \item Marathon PR of 2:37:16
-  \end{itemize}
-\item Ski mountaineering, scrambling, and mountaineering
-  \begin{itemize}
-    \item Summited Cotopaxi Volcano (5897 m) in Ecuador
-    \item Climbed and skied off of Mount Columbia, the highest point in Alberta
-  \end{itemize}
+\item \textbf{Endurance Athlete:} 2019 Boston Marathon finisher (2:37:16 PR).
+\item \textbf{Mountaineering:} Summited Cotopaxi Volcano (5897 m) and ski-mountaineered Mount Columbia.
 \end{itemize}
 
 \end{document}
